@@ -1,0 +1,64 @@
+<html>
+   <head>
+       <title>Data Viz Week 1</title>
+   </head>
+   <body>
+   <h1>Data Viz Week 1 lesson</h1>
+   
+   
+      <script>
+	  // This is my javascript I am going to describe objects in the room.
+	  // Then, I am going to console log these objects.
+	  //This program will include a string, a boolean, an array, and an object.
+
+      // This  is a string. It describe my location.
+       var mylocationstring = "Johri Farm";
+	   console.log('The name of my location is:');
+       console.log(mylocationstring);
+	   console.log(typeof(mylocationstring));
+	   console.log(' ')
+	   
+	   //This is a number. This describes the location of Mass Communication school.
+       var lanenumber = 3;
+       console.log(lanenumber);
+       console.log(typeof(lanenumber));	   
+	   var newlanes = '6';
+	   var newlanenumber = Number(newlanes);
+	   console.log( 'The sum of our new lanes is:');
+	   console.log(lanenumber+newlanenumber);
+	   console.log(' ');
+	   
+	   //This is a boolean . It describes the city in which Johri farm is located.
+	   var isInDelhi = true;
+	   console.log(isInDelhi);
+	   console.log(lanenumber>newlanenumber);
+	   console.log(' ');
+	   
+	   //Now I am going to create an array. The array will describe objects in the classroom.
+	   var streetarray = ['light','road','shops','vendors'];
+	   console.log(streetarray);
+	   
+	  
+       //This is a variable for the length of my classroomarray.It is one higher than the number of my final item.	  
+	  
+	   var streetarraylength = streetarray.length;
+	   console.log(streetarraylength);
+	   var lastitem = streetarray[streetarraylength-1];
+	   console.log(lastitem);
+	   console.log(' ');
+	   
+	   //Now I will create an object to describe the shopkeeper.
+	   var shopkeeper = {
+	       name : "Shahzaib",
+		   age: 24,
+		   hobbies: ['basketball', 'cricket', 'bikeriding']
+	   };
+	   console.log(shopkeeper);
+	  
+	   var firsthobby = shopkeeper.hobbies[0];
+	   console.log(firsthobby);
+	   
+	   
+     </script>	   
+   </body>
+</html>
